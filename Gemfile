@@ -16,7 +16,7 @@ group :test do
 end
 
 
-gem 'sass-rails', '~> 4.0.2'
+gem 'sass-rails', '>= 3.2'
 gem 'bootstrap-sass', '~> 3.1.1'
 gem 'sprockets', '~> 2.11.0'
 gem 'bcrypt', '~> 3.1.2'
@@ -26,6 +26,9 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 gem 'rb-readline', '~> 0.5.1'
+gem 'font-awesome-rails'
+gem 'cucumber-rails', '~> 1.4.0'
+gem 'database_cleaner', '~> 1.2.0'
 
 group :doc do
   gem 'sdoc', require: false
